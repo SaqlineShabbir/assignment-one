@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+     /*-----------first part----------*/
+
+.content-wrapper{
+    margin-top: 50px;
+    margin-left: 50px;
+    display:flex;
+}
+.first-content-texts{
+margin-left: 10px;
+margin-top: 70px;
+}
+span{
+    color:rgb(255, 99, 71);
+}
+.first-img{
+    margin-left:50px;
+}
+.btn{
+    padding:10px;
+    border: none;
+    background:rgb(255, 99, 71);
+    border-radius:30px;
+    transition:1s;
+}
+.btn a{
+    text-decoration:none;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: rgb(255, 123, 0);
+}
+    /*-----second part------*/
+
+
+.second-content-wrapper{
+    margin-top: 100px;
+     display:flex;
+     background:pink;
+    }
+
+.second-img{
+    width:50%;
+    margin-left: 200px;
+}
+.second-content-wrapper img{
+    height:500px;
+    margin-left: 80px;
+    margin-right:100px;
+    padding-top: 70px;
+
+}
+.second-content-texts{
+    margin-left:200px;
+    padding-top: 120px;
+    padding-right:100px ;
+    width:60%
+}
+.btn-2{
+    margin-top: 10px;;
+    padding:10px;
+    border: none;
+    background:rgb(255, 99, 71);
+    border-radius:30px;
+    transition:1s;
+}
+.btn-2 a{
+    text-decoration:none;
+    padding: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+.btn-2:hover{
+    background-color: rgb(255, 123, 0);
+}
+   
+              /*third part*/
+
+
+
+
+.third-content-image-wrapper{
+    display: flex;
+}             
