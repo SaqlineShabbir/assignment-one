@@ -16,7 +16,7 @@ margin-left: 10px;
 margin-top: 70px;
 }
 span{
-    color:rgb(255, 99, 71);
+    color:rgb(255, 138, 71);
 }
 .first-img{
     width: 50%;
@@ -25,7 +25,7 @@ span{
 .btn{
     padding:10px;
     border: none;
-    background-image: linear-gradient(rgb(255, 115, 0), tomato);
+    background-image: linear-gradient(rgb(255, 115, 0), rgb(209, 73, 49));
     border-radius:30px;
     
 }
@@ -51,7 +51,7 @@ span{
 .second-content-wrapper img{
     width:50%;
     height: auto;
-    margin-left:100px;
+    margin-left:150px;
     margin-top: 20px;
 }
 .second-content-texts{
@@ -62,7 +62,7 @@ span{
 .btn-2{
     padding:10px;
     border: none;
-    background-image: linear-gradient(rgb(255, 115, 0), tomato);
+    background-image: linear-gradient(rgb(255, 115, 0), rgb(209, 73, 49));
     border-radius:30px;
     
 }
@@ -144,7 +144,7 @@ span{
 .form-box form input[type=submit]{
     max-width: 100px;
     text-transform: uppercase;
-    background-image: linear-gradient(rgb(255, 115, 0), tomato) ;
+    background-image: linear-gradient(rgb(255, 115, 0), rgb(209, 73, 49));
     border-radius: 30px;
     padding: 10px;
 }
