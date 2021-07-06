@@ -19,14 +19,15 @@ span{
     color:rgb(255, 99, 71);
 }
 .first-img{
-    margin-left:50px;
+    width: 50%;
+    margin-left:200px;
 }
 .btn{
     padding:10px;
     border: none;
-    background:rgb(255, 99, 71);
+    background-image: linear-gradient(rgb(255, 115, 0), tomato);
     border-radius:30px;
-    transition:1s;
+    
 }
 .btn a{
     text-decoration:none;
@@ -34,42 +35,36 @@ span{
     color: white;
     text-transform: uppercase;
 }
-.btn:hover{
-    background-color: rgb(255, 123, 0);
-}
     /*-----second part------*/
 
 
 .second-content-wrapper{
-    margin-top: 100px;
+    
      display:flex;
-     background:pink;
+     background-image: url(images/bg1.png);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     margin-top:50px;
+     margin-left: 0px;
     }
 
-.second-img{
-    width:50%;
-    margin-left: 200px;
-}
 .second-content-wrapper img{
-    height:500px;
-    margin-left: 80px;
-    margin-right:100px;
-    padding-top: 70px;
-
+    width:50%;
+    height: auto;
+    margin-left:100px;
+    margin-top: 20px;
 }
 .second-content-texts{
-    margin-left:200px;
-    padding-top: 120px;
-    padding-right:100px ;
-    width:60%
+    width: 50%;
+    padding-right: 100px;
+    padding-top: 200px;
 }
 .btn-2{
-    margin-top: 10px;;
     padding:10px;
     border: none;
-    background:rgb(255, 99, 71);
+    background-image: linear-gradient(rgb(255, 115, 0), tomato);
     border-radius:30px;
-    transition:1s;
+    
 }
 .btn-2 a{
     text-decoration:none;
@@ -77,15 +72,124 @@ span{
     color: white;
     text-transform: uppercase;
 }
-.btn-2:hover{
-    background-color: rgb(255, 123, 0);
-}
    
               /*third part*/
 
-
+.third-content-texts{
+    text-align: center;
+    padding:50px 100px
+}
 
 
 .third-content-image-wrapper{
     display: flex;
-}             
+    margin-left: 10px;
+    padding:20px;
+    
+}      
+        
+.third-content-img{
+    width: 30%;
+    height:50%;
+    padding:20px;
+    border-radius:20px;
+    margin:10px 10px;
+    box-shadow: 10px 10px 20px gray;
+    
+
+}
+.third-content-image-wrapper .third-content-img img{
+    max-width:100%;
+    
+}
+      /*fourth part*/
+
+.fourth-content-wrapper{
+    background-color:black;
+    margin-top: 100px;
+}
+.fourth-content-head-text  {
+    text-align:center;
+    color:white;
+    padding:30px;
+} 
+.form-box form{
+    display:flex;
+    flex-direction:column;
+}
+.form-box form h3{
+    color:white;
+}
+.fourth-content-main{
+    display:flex;
+}
+.contact-info {
+    color:white;
+    width: 50%;
+    margin-left: 50px;
+}
+.form-box form input,
+.form-box form textarea{
+ margin-bottom: 20px;
+ padding:15px;
+ font-size: 16px;
+ border:none;
+ background:#222;
+ color:white;
+ width:500px
+}
+.form-box form textarea{
+    min-height: 200px;
+}
+.form-box form input[type=submit]{
+    max-width: 100px;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(255, 115, 0), tomato) ;
+    border-radius: 30px;
+    padding: 10px;
+}
+.contact-info-box .box .text{
+    display:flex;
+    margin-left: 20px;
+    font-size:16px;
+    font-weight:300;
+    flex-direction: column;
+}
+.follower-section{
+    height:50vh
+}
+
+.followers-wrapper{
+    margin-top :250px ;
+    margin-left: 200px;
+    margin-right:200px;
+    margin-bottom:100px;
+
+    padding:10px;
+    box-shadow:10px 10px 10px 15px grey
+
+}
+.follow-content1{
+    margin-left:500px;
+    padding:10px;
+    justify-content:center;
+}
+.follow-content2{
+    display:flex;
+    justify-content:center;
+    
+}
+.follow-content{
+    margin:10px;
+}
+
+/*------footer-----*/
+.footer-text{
+    text-align: center;
+    margin-top: 100px;
+    background:black;
+    color:white;
+    padding:10px;
+   
+}
+
