@@ -13,14 +13,16 @@ body{
 }
 .first-content-texts{
 margin-left: 10px;
-margin-top: 70px;
+margin-top: 100px;
 }
 span{
     color:rgb(255, 138, 71);
 }
 .first-img{
     width: 50%;
+    height: auto;
     margin-left:200px;
+    
 }
 .btn{
     padding:10px;
