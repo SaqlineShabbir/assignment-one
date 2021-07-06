@@ -155,6 +155,10 @@ span{
     font-weight:300;
     flex-direction: column;
 }
+
+
+     /*---fifth part---*/
+
 .follower-section{
     height:50vh
 }
@@ -180,7 +184,7 @@ span{
     
 }
 .follow-content{
-    margin:10px;
+    margin:30px;
 }
 
          /*------footer-----*/
